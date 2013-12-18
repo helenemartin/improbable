@@ -1,14 +1,10 @@
-
-
-
 $(function() {
-
-	$("#about h2").click(function() {
-		$("#about .content").toggle(200);
-	});
-
-	$("#portfolio h2").click(function() {
-		$("#portfolio .content").toggle(200);
-	});
-
+  $(".playpause").click(function(){
+    var video= $("#girl")[0];
+    if (video.paused) {
+      video.play();
+    } else {
+      video.pause();
+    }
+  });
 });
