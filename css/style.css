@@ -37,6 +37,15 @@ header {
 
 }
 
+@media (max-width: 960px) {
+  #overlay {
+    width: 100%;
+    width: auto;
+    float: none;
+
+  }
+}
+
 
 
 aside {
@@ -124,11 +133,12 @@ footer {
 }
   
   #overlay:graph {
-  
   background-color: rgba(221, 221, 221, 0.3);
-  width: 940px;
-  z-index: -1;
+  width: 100%;
+  z-index: 1;
 }
+
+
 
 
 

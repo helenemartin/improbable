@@ -7,7 +7,8 @@
     <script src="js/jquery-1.8.2.min.js"></script>
     <script src="js/jquery-fitvids.js"></script>
     <script src="js/main.js"></script>
-    <script type="text/javascript"
+    <script type="text/javascript"></script>
+    <script>
       var overlay= document.getElementById('overlay');
   var video= document.getElementById('v');
   video.addEventListener('progress', function() {
@@ -23,16 +24,15 @@
     <video id="girl" controls autoplay loop>
       <source src="video/girl2.mp4" type="video/mp4">
       </video>
+       <div id="overlay" style="visibility: visible;">
+        <video id="graph" controls autoplay loop> 
+          <source src="video/graph.mp4" type="video/mp4">*/
+        </video>
+        </div></div>
     </div>
     <div class="column">
-    <aside>  
-      <div id="overlay" style="visibility: visible;">
-        <video id="graph" controls autoplay loop> 
-          <source src="video/graph.mp4" type="video/mp4">
-        </video>
-        </div>
+    <aside>   
       <div class="button">
-
         <button class="playpause">
           <img src="img/animmax.gif"/>
           <span>Play/Pause</span></button> 
