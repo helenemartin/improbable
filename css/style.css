@@ -111,7 +111,6 @@ aside {
 video {
   width: 100%;
 
-
 }
 /*.button {
   text-align: center;
@@ -132,26 +131,15 @@ footer {
 
 }
   
-  #overlay:graph {
+  #overlay {
+  position: relative;
   background-color: rgba(221, 221, 221, 0.3);
   width: 100%;
-  z-index: 1;
+  top: -300px;
+  z-index: -1;
 }
 
 
-
-
-
-
-/*footer p {
-  color: #b0afc0;
-  font-size: 14px;
-  margin-left: 30px;
-}
-
-footer a {
-  color: #b0afc0;
-}*/
 
 .clear {
   clear:both; 
