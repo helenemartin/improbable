@@ -102,6 +102,7 @@ aside {
 video {
   width: 100%;
 
+
 }
 /*.button {
   text-align: center;
@@ -121,6 +122,18 @@ footer {
   clear: both;
 
 }
+  
+  #overlay:graph {
+  top: 100px; 
+  color: #FFF; 
+  text-align: center;
+  font-size: 20px;
+  background-color: rgba(221, 221, 221, 0.3);
+  width: 940px;
+  padding: 10px 0;
+  z-index: 2147483647;
+}
+
 
 
 
