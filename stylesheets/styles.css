@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+/*@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
   padding:50px;
@@ -175,6 +175,143 @@ hr {
   height:1px;
   margin:0 0 20px;
 }
+*/
+body {
+   background: url(../video/girl2.mp4) no-repeat;
+  font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif, sans-serif; font-weight:bold; font-style:normal;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #fdfdfc;
+  border-bottom: 1px solid #e7e6e6;
+  padding-top: 14px;
+  text-align: center;
+  min-width: 570px;
+  
+}
+
+#wrapper {
+ 
+  width: 960px;
+  margin: 0 auto;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+
+}
+@media (max-width: 960px) {
+  #wrapper {
+    width: 100%;
+  }
+  .column  {
+    width: auto;
+    float: none;
+  }
+
+}
+
+@media (max-width: 960px) {
+  #overlay {
+    width: 100%;
+    width: auto;
+    float: none;
+
+  }
+}
+
+img {
+  width: 80px;
+  height: 80px;
+}
+
+aside {
+    margin: 0 auto;
+    position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.playpause {
+ /*background: url(../img/clapbuttonsmall1.png)  no-repeat;
+     background-position: center;*/
+    background-color: rgba(255,255,255, 0.8);;
+    border-radius: 50%;
+    /*height: 250px;
+    width: 250px;*/
+  display: block;
+  vertical-align: center;
+  width: 150px;
+  height: 150px;
+  border: none;
+  margin: 56px;
+  outline: none;
+
+  
+  
+ /*display: inline-block;
+ margin: -300px 500px 20px 150px;
+ height: 60px;*/
+}
+
+/*.playpause:hover {
+  background: url(../img/output_q21mlt.gif) no-repeat;
+  background-position: center;
+  display: block;
+  vertical-align: center;
+   width: 200px;
+  height: 200px;
+  
+}*/
+
+.playpause span {
+  text-align: center;
+  margin: 0 10px 10px 60px;
+  
+}
+
+
+
+video {
+  width: 100%;
+
+}
+.button {
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  padding: -80px 30px 180px 0;
+}
+
+footer {
+  height: 60px;
+  padding-top: 20px;
+  background-color: #fdfdfc;
+  border-top: 1px solid #eeeeee;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  clear: both;
+
+}
+  
+  #overlay {
+  position: relative;
+  background-color: rgba(221, 221, 221, 0.3);
+  width: 100%;
+  top: -300px;
+  z-index: -1;
+}
+
+
+
+.clear {
+  clear:both; 
+}
 
 .quote {
   border: 1px solid #E7E6E6;
@@ -186,12 +323,6 @@ hr {
   margin-bottom: 40px;
 }
 
-footer {
-  width:270px;
-  float:left;
-  position:fixed;
-  bottom:50px;
-}
 
 @media print, screen and (max-width: 960px) {
   
