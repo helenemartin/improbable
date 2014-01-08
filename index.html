@@ -18,9 +18,16 @@
     <script src="js/jquery-fitvids.js"></script>
     <script src="js/main.js"></script>
     <script type="text/javascript"></script>
-
+    <script>
+      window.onload=function(){
+  var overlay= document.getElementById('girl');
+  var video= document.getElementById('graph');
+  video.addEventListener('progress', function() {
+    var show= video.currentTime>=5 && video.currentTime<10;
+    overlay.style.visibility= show? 'visible' : 'visible';
+  }, false);
+}
     </script>
-</head>
 <body>
  </head>
 <body>
