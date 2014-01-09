@@ -308,6 +308,13 @@ footer {
   z-index: -1;
 }
 
+#overlaid{
+  position: relative;
+  width: 100%;
+  top: -200px;
+  z-index: -2;
+}
+
 a {
   color: #E62808;
   text-decoration: none;
