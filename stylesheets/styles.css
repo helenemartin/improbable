@@ -188,6 +188,7 @@ del {
 
 header {
   margin: 0 auto;
+  size: 50%;
   padding-top: 14px;
   text-align: center;
   min-width: 570px;
