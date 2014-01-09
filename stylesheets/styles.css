@@ -187,8 +187,7 @@ del {
 }
 
 header {
-  background-color: #fdfdfc;
-  border-bottom: 1px solid #e7e6e6;
+  margin: 0 auto;
   padding-top: 14px;
   text-align: center;
   min-width: 570px;
@@ -242,7 +241,7 @@ aside {
 .playpause {
  /*background: url(../img/clapbuttonsmall1.png)  no-repeat;
      background-position: center;*/
-    background-color: rgba(255,255,255, 0.8);;
+    background-color: rgba(255,255,255, 0.3);;
     border-radius: 50%;
     /*height: 250px;
     width: 250px;*/
@@ -280,7 +279,8 @@ aside {
 
 
 video {
-  width: 100%;
+  width: 80%;
+
 
 }
 .button {
@@ -293,8 +293,7 @@ video {
 footer {
   height: 60px;
   padding-top: 20px;
-  background-color: #fdfdfc;
-  border-top: 1px solid #eeeeee;
+  background-color: rgba(221, 221, 221, 0.3);
   width: 100%;
   text-align: center;
   margin: 0 auto;
@@ -304,13 +303,16 @@ footer {
   
   #overlay {
   position: relative;
-  background-color: rgba(221, 221, 221, 0.3);
   width: 100%;
-  top: -300px;
+  top: -50px;
   z-index: -1;
 }
 
+a {
+  color: #E62808;
+  text-decoration: none;
 
+}
 
 .clear {
   clear:both; 
@@ -320,11 +322,11 @@ footer {
   border: 1px solid #E7E6E6;
   padding: 20px 27px;
   border-radius: 6px;
-  background-color: #FDFDFC;
+  background-color: rgba(221, 221, 221, 0.3);
   color: black;
   font-style: italic;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  /*margin-top: 5px;
+  margin-bottom: 5px;*/
   padding: 50px;
 }
 
