@@ -5,4 +5,8 @@ Provisional title for a responsive video webpage for a group show in Copenhagen 
 
 Music by [Orchestra of Spheres](http:http://orchestraofspheres.bandcamp.com/)
 
+![gaming gaming][id]
+
+[id]: img/gamingexhib.jpg "Title"
+
 
