@@ -7,7 +7,7 @@ Provisional title for a responsive video webpage for a group show in Copenhagen 
 
 Music by [Orchestra of Spheres](http:http://orchestraofspheres.bandcamp.com/)
 
-![New Shelter Plan](/img/GamingGaming_poster.jpg "Poster")
+![New Shelter Plan](/img/post.jpg "Poster")
 
 ****
 
