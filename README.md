@@ -3,8 +3,10 @@
 Provisional title for a responsive video webpage for a group show in Copenhagen in January 2014: 
 ### [Gaming Gaming](http://newshelterplan.com/project/gaminggaming/)
 
-I had to produce a work inspired by another artist piece. In my case a text by Rachel Cattle.
-That night in a Birmingham basement the emotional force of her voice was held in constant tension with a palpable anxiety in her performance, which gave the music a nerve-shredding high-wire tension; by the end of the evening, the audience... seemed to be collectively willing her on to her next improbable feat of melody an encore seemed almost an unfair ordeal to impose on her.
+I had to produce a work inspired by another artist piece. In my case a text by Rachel Cattle:
+
+"That night in a Birmingham basement the emotional force of her voice was held in constant tension with a palpable anxiety in her performance, which gave the music a nerve-shredding high-wire tension; by the end of the evening, the audience... seemed to be collectively willing her on to her next improbable feat of melody an encore seemed almost an unfair ordeal to impose on her"
+
 Rachel Cattle
 
 
