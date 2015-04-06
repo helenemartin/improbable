@@ -23,7 +23,7 @@ It links to the video [Her next improbable feat of Melody](http://helenemartin.g
 Music by [Orchestra of Spheres](http:http://orchestraofspheres.bandcamp.com/)
 
 I coded a custom play/pause video button linking to simultaneously 3 mp4 clips:
-![Encore](https://github.com/helenemartin/improbable/blob/master/app/img/animmax.gif "Encore")
+![Encore](https://github.com/helenemartin/improbable/blob/master/app/./img/animmax.gif "Encore")
 [id]: img/gamingexhib.jpg "New Shelter Plan"
 
 
