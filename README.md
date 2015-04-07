@@ -1,6 +1,6 @@
-# [Improbable](http://helenemartin.github.io/improbable/)
+# [Her Next Improbable Feat of Melody](http://helenemartin.github.io/improbable/)
 
-Provisional title for a responsive video webpage for a group show in Copenhagen in January 2014: 
+A responsive video webpage for a group show in Copenhagen in January 2014: 
 ### [Gaming Gaming](http://newshelterplan.com/project/gaminggaming/)
 
 I had to produce a work inspired by another artist piece. In my case a text by Rachel Cattle:
