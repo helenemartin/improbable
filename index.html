@@ -18,68 +18,70 @@
     <script src="js/jquery-fitvids.js"></script>
     <script src="js/main.js"></script>
     <script type="text/javascript"></script>
-    <script>
-      window.onload=function(){
-  var overlay= document.getElementById('girl');
-  var video= document.getElementById('graph');
-  video.addEventListener('progress', function() {
-    var show= video.currentTime>=5 && video.currentTime<10;
-    overlay.style.visibility= show? 'visible' : 'visible';
-  }, false);
-}
-    </script>
- </head>
+  </head>
  
-<body>
+  <body>
 
- <div id="wrapper">
-    <header>
-      <p>
-      <h1>Her next improbable feat of melody</h1>
-     </p>
-    </header>
-   <div class="column">
-    <video id="girl" controls autoplay loop>
-      <source src="video/girl2.mp4" type="video/mp4">
-        <source src="video/girl2.ogg" type="video/ogg">
-        </video>
-         <div id="overlay">
-         <video id="graph" controls autoplay loop> 
-          <source src="video/graph.mp4" type="video/mp4">
-          <source src="video/graph.ogg" type="video/ogg">
-        </video>
-       </div>
-       <div id="overlaid">
-         <video id="girl3" controls autoplay loop> 
-          <source src="video/girl3.mp4" type="video/mp4">
-          <source src="video/girl3.ogg" type="video/ogg">
-        </video>
-       </div>
-    </div>
-    <div class="column">
-    <aside>   
-      <div class="button">
-        <button class="playpause">
-          <img src="img/animedium.gif"/>
-          <span>Play/Pause</span></button> 
-        </div>
+   <div id="wrapper">
+      <header>
+        <p>
+        <h1>Her next improbable feat of melody</h1>
+       </p>
+      </header>
+     <div class="column">
+      <video id="girl" controls autoplay loop>
+        <source src="video/girl2.mp4" type="video/mp4">
+          <source src="video/girl2.ogg" type="video/ogg">
+          </video>
+           <div id="overlay">
+           <video id="graph" controls autoplay loop> 
+            <source src="video/graph.mp4" type="video/mp4">
+            <source src="video/graph.ogg" type="video/ogg">
+          </video>
+         </div>
+         <div id="overlaid">
+           <video id="girl3" controls autoplay loop> 
+            <source src="video/girl3.mp4" type="video/mp4">
+            <source src="video/girl3.ogg" type="video/ogg">
+          </video>
+         </div>
       </div>
-     <div class="clear"></div>
-    </aside>
-  </div>
-  <section>
-        <p class="quote">&#34;<del>That night in a Birmingham basement the emotional force of her voice was held in constant tension with a palpable anxiety in her performance, which gave the music a nerve-shredding high-wire tension; by the end of the evening, the audience... seemed to be collectively willing her on to</del> her next improbable feat of melody;<del> an </del>encore<del> seemed almost an unfair ordeal to impose on her.</del>&#34;<br>Rachel Cattle</br></p>
-        
-    <footer>
-      <p><a href="http://helenemartin.github.io/portfolio/">H&eacutel&egravene Martin</a></p>
-    </footer>
-  </div>
-      
-      </section>
-      
+      <div class="column">
+      <aside>   
+        <div class="button">
+          <button class="playpause">
+            <img src="img/animedium.gif"/>
+            <span>Play/Pause</span></button> 
+          </div>
+        </div>
+       <div class="clear"></div>
+      </aside>
+    </div>
+    <section>
+          <p class="quote">&#34;<del>That night in a Birmingham basement the emotional force of her voice was held in constant tension with a palpable anxiety in her performance, which gave the music a nerve-shredding high-wire tension; by the end of the evening, the audience... seemed to be collectively willing her on to</del> her next improbable feat of melody;<del> an </del>encore<del> seemed almost an unfair ordeal to impose on her.</del>&#34;<br>Rachel Cattle</br></p>
+          
+      <footer>
+        <p><a href="http://helenemartin.github.io/portfolio/">H&eacutel&egravene Martin</a></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+        
+        </section>
+        
+        </footer>
+      </div>
+      <script src="javascripts/scale.fix.js"></script>
+      
+    </body>
+
+
+    <script>
+        window.onload=function(){
+        var overlay= document.getElementById('girl');
+        var video= document.getElementById('graph');
+        video.addEventListener('progress', function() {
+          var show= video.currentTime>=5 && video.currentTime<10;
+          overlay.style.visibility= show? 'visible' : 'visible';
+        }, false);
+      }
+    </script>
 </html>
